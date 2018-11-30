@@ -25,3 +25,13 @@ git submodule add https://github.com/viniceosm/logpty.git logpty
 
 git commit -m '🆕 primeiro commit com submodulo logpty'
 ```
+
+## Atualizar sub modulos
+
+```
+git submodule update --remote --recursive
+
+# Depois é só commitar
+git add lib/logpty
+git commit -m '🆙 logpty atualizado'
+```
