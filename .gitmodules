@@ -1,0 +1,3 @@
+[submodule "lib/logpty"]
+	path = lib/logpty
+	url = https://github.com/viniceosm/logpty.git
