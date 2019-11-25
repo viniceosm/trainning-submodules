@@ -11,7 +11,7 @@ Repositório feito para praticar como fazer sub módulos e registrando o fluxo u
 git submodule add https://github.com/viniceosm/logpty.git logpty
 ```
 
-3. Na raiz do projeto irá ser criado um arquivo chamado `.gitmodules` com o código abaixo:
+3. Na raiz do projeto será criado um arquivo chamado `.gitmodules` com o código abaixo:
 
 ```
 [submodule "lib/logpty"]
@@ -22,7 +22,6 @@ git submodule add https://github.com/viniceosm/logpty.git logpty
 4. Agora poderá commitar seu sub módulo
 
 ```
-
 git commit -m '🆕 primeiro commit com submodulo logpty'
 ```
 
